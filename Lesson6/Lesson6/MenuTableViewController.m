@@ -72,6 +72,8 @@
         [self performSegueWithIdentifier:@"game" sender:nil];
     } else if ([menuTitle isEqualToString:@"AL task 1"]) {
         [self performSegueWithIdentifier:@"task1" sender:nil];
+    } else if ([menuTitle isEqualToString:@"AL task 2"]) {
+        [self performSegueWithIdentifier:@"task2" sender:nil];
     }
     
     NSLog(@"%@", menuTitle);

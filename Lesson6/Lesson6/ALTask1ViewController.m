@@ -45,6 +45,7 @@
     [super viewWillAppear:animated];
     [self updateWith];
     self.slider.value = self.currentScreenWidth / 2.f;
+    self.rightLabelConstraint.constant = self.slider.value;
 }
 
 -(void) didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {

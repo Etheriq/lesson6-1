@@ -20,6 +20,7 @@
 		2947E7961BF542D200686B42 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 2947E78F1BF542D200686B42 /* Game.m */; };
 		2947E7971BF542D200686B42 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 2947E7911BF542D200686B42 /* PlayingCard.m */; };
 		2947E7981BF542D200686B42 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2947E7931BF542D200686B42 /* PlayingCardDeck.m */; };
+		2959810D1BF686F3006A53FE /* ALTask2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2959810C1BF686F3006A53FE /* ALTask2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		2947E7911BF542D200686B42 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
 		2947E7921BF542D200686B42 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
 		2947E7931BF542D200686B42 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		2959810B1BF686F3006A53FE /* ALTask2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTask2ViewController.h; sourceTree = "<group>"; };
+		2959810C1BF686F3006A53FE /* ALTask2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTask2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 				2933DD0E1BF4D37F00573730 /* GameViewController.m */,
 				2933DD101BF4DF7B00573730 /* ALTask1ViewController.h */,
 				2933DD111BF4DF7B00573730 /* ALTask1ViewController.m */,
+				2959810B1BF686F3006A53FE /* ALTask2ViewController.h */,
+				2959810C1BF686F3006A53FE /* ALTask2ViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2959810D1BF686F3006A53FE /* ALTask2ViewController.m in Sources */,
 				2933DD121BF4DF7B00573730 /* ALTask1ViewController.m in Sources */,
 				2947E7951BF542D200686B42 /* Deck.m in Sources */,
 				2933DD0F1BF4D37F00573730 /* GameViewController.m in Sources */,
