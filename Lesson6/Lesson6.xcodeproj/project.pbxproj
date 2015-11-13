@@ -22,6 +22,7 @@
 		2947E7981BF542D200686B42 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 2947E7931BF542D200686B42 /* PlayingCardDeck.m */; };
 		2959810D1BF686F3006A53FE /* ALTask2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2959810C1BF686F3006A53FE /* ALTask2ViewController.m */; };
 		295981101BF690C2006A53FE /* ALTask3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2959810F1BF690C2006A53FE /* ALTask3ViewController.m */; };
+		295981131BF69EEB006A53FE /* ALTask4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 295981121BF69EEB006A53FE /* ALTask4ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,8 @@
 		2959810C1BF686F3006A53FE /* ALTask2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTask2ViewController.m; sourceTree = "<group>"; };
 		2959810E1BF690C2006A53FE /* ALTask3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTask3ViewController.h; sourceTree = "<group>"; };
 		2959810F1BF690C2006A53FE /* ALTask3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTask3ViewController.m; sourceTree = "<group>"; };
+		295981111BF69EEB006A53FE /* ALTask4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTask4ViewController.h; sourceTree = "<group>"; };
+		295981121BF69EEB006A53FE /* ALTask4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALTask4ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				2959810C1BF686F3006A53FE /* ALTask2ViewController.m */,
 				2959810E1BF690C2006A53FE /* ALTask3ViewController.h */,
 				2959810F1BF690C2006A53FE /* ALTask3ViewController.m */,
+				295981111BF69EEB006A53FE /* ALTask4ViewController.h */,
+				295981121BF69EEB006A53FE /* ALTask4ViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 				2947E7971BF542D200686B42 /* PlayingCard.m in Sources */,
 				2947E7961BF542D200686B42 /* Game.m in Sources */,
 				2947E7981BF542D200686B42 /* PlayingCardDeck.m in Sources */,
+				295981131BF69EEB006A53FE /* ALTask4ViewController.m in Sources */,
 				2933DCFB1BF4A4E500573730 /* MenuTableViewController.m in Sources */,
 				2933DCE51BF49BC400573730 /* AppDelegate.m in Sources */,
 				2933DCE21BF49BC400573730 /* main.m in Sources */,
