@@ -38,7 +38,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.slider.minimumValue = 0;
+    self.slider.minimumValue = 1;
 }
 
 - (void)viewWillAppear:(BOOL)animated {

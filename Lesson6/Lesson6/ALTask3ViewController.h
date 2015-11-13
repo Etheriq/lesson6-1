@@ -1,0 +1,13 @@
+//
+//  ALTask3ViewController.h
+//  Lesson6
+//
+//  Created by Yuriy T on 13.11.15.
+//  Copyright © 2015 Yuriy T. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ALTask3ViewController : UIViewController
+
+@end

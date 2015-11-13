@@ -1,47 +1,43 @@
 //
-//  ALTask2ViewController.m
+//  ALTask3ViewController.m
 //  Lesson6
 //
 //  Created by Yuriy T on 13.11.15.
 //  Copyright © 2015 Yuriy T. All rights reserved.
 //
 
-#import "ALTask2ViewController.h"
+#import "ALTask3ViewController.h"
 
-@interface ALTask2ViewController ()
+@interface ALTask3ViewController ()
 
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *centerViewWidthConstraint;
 @property (weak, nonatomic) IBOutlet UISlider *slider;
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *labeHeightConstraint;
-
-@property (assign, nonatomic) float currentScreenHeight;
+@property (assign, nonatomic) float currentWidth;
 
 @end
 
-@implementation ALTask2ViewController
+@implementation ALTask3ViewController
 
-#pragma mark - Action
+# pragma mark - Actions
 
-- (IBAction)changeLabelHeight:(UISlider *)sender {
-    self.labeHeightConstraint.constant = sender.value;
-    
-    NSLog(@"slider value is %f", sender.value);
-    NSLog(@"constraint value is = %f", self.labeHeightConstraint.constant);
+- (IBAction)changeCentralViewWidth:(UISlider *)sender {
+    self.centerViewWidthConstraint.constant = sender.value;
 }
 
-#pragma mark - Views
+# pragma mark - Views
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.slider.minimumValue = 1;
+    self.slider.minimumValue = 20;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     [self updateWith];
-    self.slider.value = self.currentScreenHeight / 2.f;
-    self.labeHeightConstraint.constant = self.slider.value;
+    self.slider.value = self.currentWidth / 2.f;
+    self.centerViewWidthConstraint.constant = self.slider.value;
 }
 
 -(void) didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
@@ -49,8 +45,8 @@
 }
 
 -(void) updateWith {
-    self.currentScreenHeight = self.view.bounds.size.height;
-    self.slider.maximumValue = self.currentScreenHeight;
+    self.currentWidth = self.view.bounds.size.width;
+    self.slider.maximumValue = self.currentWidth - 200;
 }
 
 
