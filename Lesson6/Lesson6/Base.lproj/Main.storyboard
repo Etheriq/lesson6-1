@@ -901,17 +901,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="task 1 AL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9no-rw-uid">
-                                <rect key="frame" x="248" y="269" width="93" height="61"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla faucibus vehicula nunc. Ut varius venenatis turpis non eleifend." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9no-rw-uid">
+                                <rect key="frame" x="30" y="290" width="540" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="QfP-lp-use">
+                                <rect key="frame" x="88" y="550" width="424" height="31"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="rightConstraintSlider:" destination="cKA-Ym-buM" eventType="valueChanged" id="Hp6-qc-G4b"/>
+                                </connections>
+                            </slider>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QfP-lp-use" firstAttribute="leading" secondItem="PuG-WB-g2m" secondAttribute="leadingMargin" constant="70" id="HcF-qd-V2n"/>
+                            <constraint firstItem="9no-rw-uid" firstAttribute="centerY" secondItem="PuG-WB-g2m" secondAttribute="centerY" id="SLU-SZ-oZk"/>
+                            <constraint firstItem="lPw-no-gvd" firstAttribute="top" secondItem="QfP-lp-use" secondAttribute="bottom" constant="20" id="SjY-pE-Ry4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QfP-lp-use" secondAttribute="trailing" constant="70" id="TiT-Wd-dU1"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9no-rw-uid" secondAttribute="trailing" constant="10" id="c3c-QT-O7F"/>
+                            <constraint firstItem="9no-rw-uid" firstAttribute="leading" secondItem="PuG-WB-g2m" secondAttribute="leadingMargin" constant="10" id="rPD-R9-nq1"/>
+                            <constraint firstItem="QfP-lp-use" firstAttribute="centerX" secondItem="PuG-WB-g2m" secondAttribute="centerX" id="uB1-Xx-pZS"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="9no-rw-uid" id="VDQ-yi-44K"/>
+                        <outlet property="rightLabelConstraint" destination="c3c-QT-O7F" id="hxU-50-Dj9"/>
+                        <outlet property="slider" destination="QfP-lp-use" id="GAu-uO-g1D"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qeP-zX-swR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

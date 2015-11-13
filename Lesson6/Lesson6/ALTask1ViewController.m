@@ -10,13 +10,50 @@
 
 @interface ALTask1ViewController ()
 
+@property (weak, nonatomic) IBOutlet UISlider *slider;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *rightLabelConstraint;
+@property (weak, nonatomic) IBOutlet UILabel *label;
+
+@property (assign, nonatomic) float currentScreenWidth;
+
 @end
 
 @implementation ALTask1ViewController
 
+#pragma mark - Actions
+
+- (IBAction)rightConstraintSlider:(UISlider *)sender {
+    
+    [UIView animateWithDuration:2.3f animations:^{
+        self.rightLabelConstraint.constant = sender.value;
+    }];
+    
+    NSLog(@"slider value is %f", sender.value);
+    NSLog(@"constraint value is = %f", self.rightLabelConstraint.constant);
+}
+
+#pragma mark - Views
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.slider.minimumValue = 0;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self updateWith];
+    self.slider.value = self.currentScreenWidth / 2.f;
+}
+
+-(void) didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation {
+    [self updateWith];
+}
+
+-(void) updateWith {
+    self.currentScreenWidth = self.view.bounds.size.width;
+    self.slider.maximumValue = self.currentScreenWidth;
 }
 
 - (void)didReceiveMemoryWarning {
