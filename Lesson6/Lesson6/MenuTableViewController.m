@@ -28,7 +28,8 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
-    menu = [NSArray arrayWithObjects:@"Game", @"AL task 1", @"AL task 2", @"AL task 3", @"AL task 4", nil];
+//    menu = [NSArray arrayWithObjects:@"Game", @"AL task 1", @"AL task 2", @"AL task 3", @"AL task 4", nil];
+    menu = @[@"Game", @"AL task 1", @"AL task 2", @"AL task 3", @"AL task 4"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -50,7 +51,6 @@
 
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"menuCell" forIndexPath:indexPath];
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"menuCell"];
     
     if (cell == nil) {
