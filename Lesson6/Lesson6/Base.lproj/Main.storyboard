@@ -28,7 +28,6 @@
                                         <animations/>
                                         <color key="backgroundColor" red="0.37100747969999998" green="0.75273844980000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="Dwk-8C-YAt"/>
                                             <constraint firstAttribute="width" secondItem="X9w-vh-cSy" secondAttribute="height" multiplier="525:233" id="Jgx-xN-2Kp"/>
                                         </constraints>
                                     </view>
@@ -37,8 +36,6 @@
                                         <animations/>
                                         <color key="backgroundColor" red="1" green="0.34481804900000002" blue="0.3882515279" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" relation="lessThanOrEqual" constant="800" id="2oe-US-rAn"/>
-                                            <constraint firstAttribute="height" constant="128" id="CP9-9N-6hU"/>
                                             <constraint firstAttribute="width" secondItem="4jr-V8-wGh" secondAttribute="height" multiplier="325:128" id="VjS-bG-apX"/>
                                         </constraints>
                                     </view>
@@ -48,8 +45,6 @@
                                         <color key="backgroundColor" red="0.28638048379999997" green="1" blue="0.55775983409999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="FDJ-dY-q7F" secondAttribute="height" multiplier="25:16" id="1JT-vu-cVp"/>
-                                            <constraint firstAttribute="height" constant="128" id="X9E-jX-Rhv"/>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="YBf-O9-QaI"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1154,9 +1149,9 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gt-7H-Hrp">
                                 <rect key="frame" x="40" y="84" width="520" height="406"/>
                                 <animations/>
-                                <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a odio iaculis, cursus eros non, finibus elit. In convallis dignissim metus, et tincidunt ligula ultricies sit amet. Etiam tortor nisi, congue non ex in, pharetra molestie leo. Etiam ultricies tortor in ante dapibus pulvinar. Nunc eget est ac nisi ornare blandit. Sed luctus magna nec eros ullamcorper, nec blandit ante sodales. Ut ligula turpis, ullamcorper eget placerat a, feugiat at felis. Vivamus scelerisque aliquet dapibus. Suspendisse potenti. Donec non ligula mauris. Morbi volutpat, lacus ut fermentum aliquam, metus diam accumsan nunc, eget fermentum turpis urna non mauris. Pellentesque vel accumsan diam, pellentesque sagittis augue. Quisque quis ante mi. Etiam venenatis nunc a accumsan eleifend. Etiam cursus nibh vitae ligula eleifend, vitae mattis lacus vestibulum. Sed elementum, libero ut sagittis accumsan, nunc libero imperdiet turpis, a sodales nisi dui hendrerit lorem. Pellentesque blandit ex et lacinia sagittis. Etiam sit amet felis placerat est aliquam pulvinar. Quisque sit amet mi hendrerit, lacinia sem vel, pretium dui. Maecenas libero ante, euismod sit amet arcu ac, fermentum commodo ante. Proin maximus ut lorem vel tincidunt. Aenean rhoncus tempus tempor. Fusce commodo risus sapien, vel vehicula arcu aliquet id. Maecenas lorem mauris, convallis nec est vitae, interdum porta urna. In sit amet congue arcu, ac lobortis ligula. Phasellus nec elit vel erat imperdiet tempor et ac dui.</mutableString>
+                                <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a odio iaculis, cursus eros non, finibus elit. In convallis dignissim metus, et tincidunt ligula ultricies sit amet. Etiam tortor nisi, congue non ex in, pharetra molestie leo. Etiam ultricies tortor in ante dapibus pulvinar. Nunc eget est ac nisi ornare blandit. Sed luctus magna nec eros ullamcorper, nec blandit ante sodales. Ut ligula turpis, ullamcorper eget placerat a, feugiat at felis. Vivamus scelerisque aliquet dapibus. Suspendisse potenti. Donec non ligula mauris. Morbi volutpat, lacus ut fermentum aliquam, metus diam accumsan nunc, eget fermentum turpis urna non mauris. Pellentesque vel accumsan diam, pellentesque sagittis augue. Quisque quis ante mi. Etiam venenatis nunc a accumsan eleifend. Etiam cursus nibh vitae ligula eleifend, vitae mattis lacus vestibulum. Sed elementum, libero ut sagittis accumsan, nunc libero imperdiet turpis, a sodales nisi dui hendrerit lorem. Pellentesque blandit ex et lacinia sagittis. Etiam sit amet felis placerat est aliquam pulvinar. Quisque sit amet mi hendrerit, lacinia sem vel, pretium dui. Maecenas libero ante, euismod sit amet arcu ac, fermentum commodo ante. Proin maximus ut lorem vel tincidunt. Aenean rhoncus tempus tempor. Fusce commodo risus sapien, vel vehicula arcu aliquet id. Maecenas lorem mauris, convallis nec est vitae, interdum porta urna. In sit amet congue arcu, ac lobortis ligula. Phasellus nec elit vel erat imperdiet tempor et ac dui.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
